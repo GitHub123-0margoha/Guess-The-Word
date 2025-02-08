@@ -50,6 +50,13 @@ h1 {
     border: none;
     border-bottom: 3px solid #333;
 }
+@media (max-width: 767px) {
+    .guss-game .game-area .inputs input {
+        font-size: 24px;
+        width: 30px;
+        height: 30px;
+    }
+}
 .guss-game .game-area .inputs input:focus {
     outline-color: #ccc;
 }
