@@ -180,7 +180,6 @@ function handelBackSpace(event) {
 }
 document.addEventListener("keydown" , handelBackSpace);
 
-console.log(wordToGuess)
 window.onload = function () { // هنا كده استدعينا الداله الي فوق
     generateInputs();
 }
